@@ -2,14 +2,14 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Head from "next/head";
 import Herosection from "@/components/home/Herosection";
+import Subscriber from "@/components/home/Subscriber";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
- <div>
-
-<Head>
+    <div>
+      <Head>
         <title>Web3Campus </title>
         <meta
           name="DePin Bootstrap"
@@ -20,14 +20,10 @@ export default function Home() {
         <link rel="icon" href="/deplogo.svg" />
       </Head>
 
-
-
-<div>
-  <Herosection/>
-  
-</div>
-
- </div>
-
+      <div>
+        <Herosection />
+        <Subscriber />
+      </div>
+    </div>
   );
 }
