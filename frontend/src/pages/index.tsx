@@ -5,6 +5,7 @@ import Herosection from "@/components/home/Herosection";
 import Subscriber from "@/components/home/Subscriber";
 import Projects from "@/components/home/Projects";
 import Technology from "@/components/home/Tech";
+import Contributers from "@/components/home/Team";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function Home() {
         <Herosection />
          <Projects/>
          <Technology/>
+         <Contributers/>
         <Subscriber />
        
       </div>
