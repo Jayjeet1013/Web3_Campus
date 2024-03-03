@@ -87,7 +87,7 @@ export default function Subscriber() {
                 <Input
                   placeholder="Enter your email"
                   bg={"transparent"}
-                  font-weight="400"
+                  fontWeight="400"
                   fontSize={{ base: "16px", md: "20px" }}
                   px={{ base: "8px", md: "10px" }}
                   py={{ base: "8px", md: "12px" }}
