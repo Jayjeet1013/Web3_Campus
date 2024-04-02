@@ -1,6 +1,6 @@
 import React from "react";
 
-import { techData } from "../../data/resources/tech";
+import { techData } from "@/data/TechData"; 
 import Link from "next/link";
 
 function Card(tech : any) {
@@ -28,22 +28,22 @@ export default function LearnTech() {
         <div className="text-center p-4 bg-[#000]">
         <h3 className="h3 text-white">Learn tech which matters</h3>
       </div>
-      <div className="section">
+      <div className="section flex gap-4">
 
-        <Row>
+     
           {techData.map((tech, index) => {
             return (
-              <Col key={index} sm={3} className="p-2">
+              <div key={index} className="p-2">
                 <Card
                   title={tech.title}
                   logo_url={tech.logo_url}
                   sub_title={tech.sub_title}
                   link={tech.link}
                 />
-              </Col>
+              </div>
             );
           })}
-        </Row>
+     
       </div>
     </div>
   );

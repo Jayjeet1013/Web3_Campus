@@ -17,26 +17,26 @@ export default function Footer() {
             </p>
             <div>
               <div className="flex">
-                <a
+                <Link
                   href="/"
                   rel="noreferrer"
                   className="text-3xl mr-3 mt-2 text-gray-500"
-                ></a>
-                <a
+                ></Link>
+                <Link
                   href="/"
                   rel="noreferrer"
                   className="text-3xl mr-3 mt-2 text-gray-500"
-                ></a>
-                <a
+                ></Link>
+                <Link
                   href="/"
                   rel="noreferrer"
                   className="text-3xl mr-3 mt-2 text-gray-500"
-                ></a>
-                <a
+                ></Link>
+                <Link
                   href="/"
                   rel="noreferrer"
                   className="text-3xl mr-3 mt-2 text-gray-500"
-                ></a>
+                ></Link>
               </div>
             </div>
           </div>
