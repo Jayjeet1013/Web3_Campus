@@ -28,12 +28,12 @@ export default function LearnTech() {
         <div className="text-center p-4 bg-[#000]">
         <h3 className="h3 text-white">Learn tech which matters</h3>
       </div>
-      <div className="section flex gap-4">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
 
      
           {techData.map((tech, index) => {
             return (
-              <div key={index} className="p-2">
+              <div key={index} className=" p-2">
                 <Card
                   title={tech.title}
                   logo_url={tech.logo_url}

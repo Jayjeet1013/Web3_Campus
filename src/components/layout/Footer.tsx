@@ -4,11 +4,12 @@ export default function Footer() {
   const linkStyle = "p text-gray-400";
   return (
     <div className="bg-[#000]">
-      <div className="section">
-        <div>
-          <div className="mb-5 sm:mb-0">
+    <div className=" container mx-auto pb-8 pt-16">
+      <div className="container mx-auto p flex justify-between">
+        <div className="flex justify-between ">
+          <div className="mb-5 w-1/3 sm:mb-0">
             <h3 className="h3 mb-3 text-white">Web3Campus</h3>
-            <p className="p text-gray-400">
+            <p className=" text-gray-400">
               Unleashing the Power of Web3 Education Welcome to Web3Campus, your
               gateway to mastering the intricacies of Web3 technology! At
               Web3Campus, we are passionate about empowering individuals with
@@ -97,12 +98,12 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex item-center justify-between p-3 border-t-2 border-gray-900 flex-wrap">
+      <div className="flex item-center justify-between p-3  mt-12 border-t-2 border-gray-900 flex-wrap">
         <p className="text-gray-400 w-full sm:w-[50%]">
           ✨ The blockchain is going to change everything more than the internet
           has.
         </p>
       </div>
-    </div>
+    </div></div>
   );
 }

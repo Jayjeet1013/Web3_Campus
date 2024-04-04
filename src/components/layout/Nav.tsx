@@ -29,7 +29,7 @@ export default function Nav() {
           <div className="mx-[50px] text-xl">👨‍💻 Learn</div>
         </Link>
 
-        <Link href="/resources/projects">
+        <Link href="/build">
           <div className="mx-[50px] text-xl">🛠 Build</div>
         </Link>
 
