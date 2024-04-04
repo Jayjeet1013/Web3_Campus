@@ -28,7 +28,7 @@ export default function Subscriber() {
     e.preventDefault();
 
     try {
-      await base("Subscribers").create([{ fields: { Email: email } }]);
+      await base("table").create([{ fields: { Email: email } }]);
       toast({
         position: "top",
 
