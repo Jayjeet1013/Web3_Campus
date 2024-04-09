@@ -66,7 +66,7 @@ export default function Subscriber() {
   };
 
   return (
-    <div className="text-center bg-[#FECF21] border-dark border-t-2">
+    <div className="text-center py-12 bg-[#FECF21] border-dark border-t-2">
       <div className="section">
         <h3 className="mb-5 h1"> Subscribe to our Newsletter!</h3>
 
