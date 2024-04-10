@@ -49,17 +49,17 @@ export default function Web3Glossary() {
           A deep dive into crypto terms, DeFi def initions, and Web3 words.
         </h3>
       </div>
-      <div className="section">
+      <div className="mx-auto max-w-7xl py-12 px-4 ">
         {alphabet.map((letter, index) => {
           return (
             <div className="mb-5" key={index}>
               <h1 className="h3">
                 <b className="text-uppercase text-bolder">{letter}</b> ➡️ for
               </h1>
-              <div className="flex  ">
+              <div className="flex flex-wrap ">
                 {abcdData[index].map((data, index) => {
                   return (
-                    <div key={index}  className="p-2">
+                    <div key={index}  className="p-2 w-[300px] ">
                       <Card word={data.word} meaning={data.meaning} />
                     </div>
                   );

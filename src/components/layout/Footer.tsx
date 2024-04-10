@@ -4,7 +4,7 @@ export default function Footer() {
   const linkStyle = "p text-gray-400";
   return (
     <div className="bg-[#000]">
-    <div className=" container mx-auto pb-8 pt-16">
+    <div className=" mx-auto max-w-7xl px-4  pb-8 pt-16">
       <div className="container mx-auto p flex justify-between">
         <div className="flex  justify-between ">
           <div className="mb-5 w-1/3 sm:mb-0">

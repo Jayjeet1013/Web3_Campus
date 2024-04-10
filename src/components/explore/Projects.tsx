@@ -10,7 +10,7 @@ function Card(props:any) {
 
       <div className="p-3">
         <h4 className="h4 line-clamp-2">{title}</h4>
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap ">
         {tech_stack.map((tech:any, index:any) => {
           return <div className="bg-[#fff] px-2 py-1 text-xs border border-dark flex m-1" key={index}>⚡️{tech}</div>;
         })}
@@ -28,10 +28,10 @@ function Card(props:any) {
 export default function Projects() {
   return (
     <div className="bg-[#FEFBED]">
-      <div className="text-center p-4 bg-[#000]">
+      <div className="text-center p-4  bg-[#000]">
         <h3 className="h3 text-white">Learning by Building</h3>
       </div>
-      <div className="section">
+      <div className="mx-auto max-w-7xl px-4 ">
         <div>
           {ProjectData.map((data, index) => {
             return (

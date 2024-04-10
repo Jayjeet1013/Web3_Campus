@@ -24,10 +24,10 @@ function Card(props:any) {
 export default function Documentaries() {
   return (
     <div className="bg-[#F2FFDA]">
-      <div className="text-center p-4 bg-[#000]">
+      <div className="text-center  p-4 bg-[#000]">
         <h3 className="h3 text-white">{`Learn while you're board from learning 🍿`}</h3>
       </div>
-      <div className="section">
+      <div className="mx-auto max-w-7xl px-4 ">
         <div>
           {documentaryData.map((data, index) => {
             return (

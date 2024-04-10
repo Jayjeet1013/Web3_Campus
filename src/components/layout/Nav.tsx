@@ -14,7 +14,7 @@ export default function Nav() {
  
 
   return (
-    <nav className="flex items-center mx-auto max-w-7xl justify-between  py-4 px-4 border-dark">
+    <nav className="flex items-center mx-auto max-w-7xl px-4 py-4 justify-between   border-dark">
       {/* logo */}
       <div className="text-2xl">
         <Link href='/'> <h3>

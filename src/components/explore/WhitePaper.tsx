@@ -31,7 +31,7 @@ function Whitepapers() {
       <div className="text-center p-4 bg-[#000]">
         <h3 className="h3 text-white">Whitepaper is the best book 📖</h3>
       </div>
-      <div className="section">
+      <div className="mx-auto max-w-7xl px-4 ">
         <div className="flex flex-wrap ">
           {whitepaperData.map((data, index) => {
             return (
