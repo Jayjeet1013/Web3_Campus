@@ -3,7 +3,7 @@ import Jobs from '@/components/earn/Jobs'
 import Subscriber from '@/components/home/Subscriber'
 import React from 'react'
 
-const earn = () => {
+const index = () => {
   return (
     <div className=''>
         <EarnHeader/>
@@ -12,4 +12,4 @@ const earn = () => {
   )
 }
 
-export default earn
+export default index

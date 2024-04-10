@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { HackathonData } from "@/data/HackathonData";
 import Link from "next/link";
 
-const JobPlatform = () => {
+const Hackathon = () => {
   const [searchTerm, setSearchTerm] = useState<string>("");
 
   // Function to handle search input change
@@ -61,4 +61,4 @@ const JobPlatform = () => {
   );
 };
 
-export default JobPlatform;
+export default Hackathon;

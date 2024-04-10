@@ -16,7 +16,7 @@ export default function EarnHeader() {
           </p>
 
           <div className="flex gap-4 items-center text-center justify-center ">
-            <Link href={'/'}>
+            <Link href={'/hackathons'}>
               <button>Hackathons</button>
             </Link>
             <Link href={'/Jobs'}>
