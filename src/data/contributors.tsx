@@ -19,7 +19,7 @@ export const contributorsData = [
    
        {
            name: "Aman",
-           title: "Project Manager",
+           title: "Frontend Developer",
            profile_url: "/profiles/aman.png",
            twitter: "",
            linkedin: "https://www.linkedin.com/in/mr-aman-326804237/",

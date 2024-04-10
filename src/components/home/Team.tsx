@@ -16,7 +16,7 @@ function ContributerCard({ pic, name, title,twitter,linkedin }:ContributersProp)
   return (
     <div>
       <img
-        className="w-full mb-1 border-2 border-dark"
+        className="w-[100px] mb-1 border-2 border-dark"
         src={pic}
         alt="profile pic"
       />
@@ -40,14 +40,14 @@ function ContributerCard({ pic, name, title,twitter,linkedin }:ContributersProp)
 
 export default function Contributers() {
   return (
-    <div className="bg-[#FAFFE9]">
-      <div className="section">
+    <div className="bg-[#FAFFE9] py-5">
+      <div className="mx-auto max-w-7xl">
         <h1 className="h1">Our Teams</h1>
         <p className="mb-5 p">
       
         </p>
 
-        <Flex>
+        <div className="flex md:flex-row flex-col items-center ">
           {contributorsData.map((contributor, index) => (
             <ContributerCard
               key={index}
@@ -58,7 +58,7 @@ export default function Contributers() {
               twitter={contributor.twitter}
             />
           ))}
-        </Flex>
+        </div>
       </div>
     </div>
   );

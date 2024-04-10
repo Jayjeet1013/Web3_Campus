@@ -10,7 +10,7 @@ export default function Projects() {
           Build real world project, that change peoples life
         </h3>
       </div>
-      <div className="section">
+      <div className="mx-auto max-w-7xl ">
         <Flex>
           {/* <Col sm={4} className="p-2 ">
             <img

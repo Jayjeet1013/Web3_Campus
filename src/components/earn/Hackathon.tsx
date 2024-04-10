@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { HackathonData } from "@/data/HackathonData";
 import Link from "next/link";
 
+
 const Hackathon = () => {
   const [searchTerm, setSearchTerm] = useState<string>("");
 
