@@ -10,7 +10,6 @@ name:string;
 title:string;
 twitter:string;
 linkedin:string;
-
 }
 
 function ContributerCard({ pic, name, title,twitter,linkedin }:ContributersProp) {

@@ -49,47 +49,45 @@ export default function Footer() {
                 <Link href="/resources/projects">Courses</Link>
               </p>
               <p className={linkStyle}>
-                <Link href="/resources/projects">Tutorial</Link>
+                <Link href="/explore/projects">Tutorial</Link>
               </p>
               <p className={linkStyle}>
-                <Link href="/">Earn</Link>
+                <Link href="/earn">Earn</Link>
               </p>
               <p className={linkStyle}>
-                <Link href="/">Hackathons</Link>
+                <Link href="/earn/hackathons">Hackathons</Link>
               </p>
             </div>
           </div>
 
-          {/* <Col xs={4} md={2} className="text-left sm:text-right">
-            <h4 className="h4 text-white">Build</h4>
+          <div className="text-left sm:text-right">
+            <h4 className="h4 text-white">Earn</h4>
             <div>
+          
               <p className={linkStyle}>
-                <Link href="/">Contribute</Link>
-              </p>
-              <p className={linkStyle}>
-                <Link href="/about-us">Earn</Link>
+                <Link href="/about-us">Jobs</Link>
               </p>
               <p className={linkStyle}>
                 <Link href="/book-now">Hackathons</Link>
               </p>
             
             </div>
-          </Col> */}
+          </div>
 
           <div className="text-left sm:text-right text-white">
-            <h4 className="h4">Resources</h4>
+            <h4 className="h4">Explore</h4>
             <div>
               <p className={linkStyle}>
-                <Link href="/resources/documentary">Documentaries</Link>
+                <Link href="/explore/Documentary">Documentaries</Link>
               </p>
               <p className={linkStyle}>
-                <Link href="/resources/whitepaper">Whitepapers</Link>
+                <Link href="/explore/Whitepaper" >Whitepapers</Link>
               </p>
               <p className={linkStyle}>
-                <Link href="/resources/projects">Projects</Link>
+                <Link href="/explore/projects">Projects</Link>
               </p>
               <p className={linkStyle}>
-                <Link href="/resources/web3-glossary">Web3-Glossary</Link>
+                <Link href="/explore/glossary">Web3-Glossary</Link>
               </p>
               <p className={linkStyle}>
                 <Link href="/resources/consensus">Consensus Algorithms</Link>

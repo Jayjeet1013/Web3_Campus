@@ -14,7 +14,7 @@ export default function Nav() {
  
 
   return (
-    <nav className="flex items-center justify-between p-2 border-b-2 border-dark">
+    <nav className="flex items-center mx-auto max-w-7xl justify-between  py-4 px-4 border-dark">
       {/* logo */}
       <div className="text-2xl">
         <Link href='/'> <h3>
@@ -27,17 +27,23 @@ export default function Nav() {
       <div className=" items-center justify-around hidden sm:flex">
         <Link href="/learn">
           <div className="mx-[50px] text-xl">👨‍💻 Learn</div>
-        </Link>
-
-        <Link href="/build">
-          <div className="mx-[50px] text-xl">🛠 Build</div>
-        </Link>
-
+        </Link> 
+        
         <Link href="/earn">
           <div className="mx-[50px] text-xl">💰 Earn</div>
         </Link>
+
+        <Link href="/">
+          <div className="mx-[50px] text-xl">About</div>
+        </Link>
+
+       
+
+        <Link href="/">
+          <div className="mx-[50px] text-xl">Contact</div>
+        </Link>
       </div>
-      <div className="main hidden sm:flex">
+      {/* <div className="main hidden sm:flex">
         <div className="content">
           <button className="btn"  >
             {connected ? "Disconnect Wallet" : "Connect Wallet"}
@@ -47,7 +53,7 @@ export default function Nav() {
         </div>
 
        
-      </div>
+      </div> */}
     </nav>
   );
 }

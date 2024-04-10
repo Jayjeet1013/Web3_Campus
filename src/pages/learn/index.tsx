@@ -2,7 +2,7 @@ import LearnHeader from '@/components/learn/LearnHeader'
 import LearnTech from '@/components/learn/LearnTech'
 import React from 'react'
 
-const learn = () => {
+const index = () => {
   return (
     <div>
         <LearnHeader/>
@@ -11,4 +11,4 @@ const learn = () => {
   )
 }
 
-export default learn
+export default index

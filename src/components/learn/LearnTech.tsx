@@ -8,7 +8,7 @@ function Card(tech : any) {
 
   return (
     <div className="border-2 hover border-dark py-5 px-3 bg-white">
-      <Link href={link}>
+      <Link href={link} target="_blank">
       <img
         className="mb-3 max-h-[50px]"
         src={logo_url}
