@@ -40,14 +40,14 @@ export default function Nav() {
           <div className="mx-[50px] text-xl">💰 Earn</div>
         </Link>
 
-        <Link href="/">
+        {/* <Link href="/">
           <div className="mx-[50px] text-xl">About</div>
-        </Link>
+        </Link> */}
 
        
 
-        <Link href="/">
-          <div className="mx-[50px] text-xl">Contact</div>
+        <Link href="/newsletter">
+          <div className="mx-[50px] text-xl">News</div>
         </Link>
 
 
@@ -91,7 +91,7 @@ export default function Nav() {
           <Link _hover={{ color: "yellow", textDecoration: "none" }}>
             <Text>About</Text>
           </Link>
-          <Link _hover={{ color: "yellow", textDecoration: "none" }}>
+          <Link href="/newsletter" _hover={{ color: "yellow", textDecoration: "none" }}>
             <Text>Contact</Text>
           </Link>
          
