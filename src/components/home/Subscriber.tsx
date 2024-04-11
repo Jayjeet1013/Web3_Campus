@@ -80,7 +80,7 @@ export default function Subscriber() {
                 border="2px solid black"
                 rounded={"10px"}
                 justify="center"
-                gap={5}
+                gap={{base:1,md:5}}
                 p={2}
                 align={{ base: "dow", md: "initial" }}
               >
@@ -88,8 +88,8 @@ export default function Subscriber() {
                   placeholder="Enter your email"
                   bg={"transparent"}
                   fontWeight="400"
-                  fontSize={{ base: "16px", md: "20px" }}
-                  px={{ base: "8px", md: "10px" }}
+                  fontSize={{ base: "14px", md: "20px" }}
+                  px={{ base: "2px", md: "10px" }}
                   py={{ base: "8px", md: "12px" }}
                   type="email"
                   value={email}
@@ -100,7 +100,7 @@ export default function Subscriber() {
                   onChange={(e) => setEmail(e.target.value)}
                   required
                 />
-                <button className="btn">
+                <button className="text-[14px] md:text-[20px] ">
                   {loading ? "Submitting..." : "Subscribe"}
                 </button>
               </Stack>

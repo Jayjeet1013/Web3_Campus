@@ -14,7 +14,7 @@ function Card(tech: any) {
   const { title, sub_title, logo_url, link } = tech;
 
   return (
-    <div className="border-2 w-[300px] hover border-dark py-8 px-3">
+    <div className="border-2 md:w-[300px] hover border-dark py-8 px-3">
       <Link href={link}>
         {" "}
         <img className="mb-3 max-h-[60px]" src={logo_url} alt="logo" />

@@ -65,9 +65,9 @@ export default function Nav() {
     <Box
         w={"full"}
         bg={"#1a1d24"}
-        px={8}
-        pb={4}
-        pt={2}
+        px={10}
+        pb={6}
+        pt={8}
         display={{ base: menu ? "block" : "none", lg: "none" }}
       >
         <Flex
@@ -77,37 +77,26 @@ export default function Nav() {
           direction={"column"}
           display={{ base: "flex", lg: "none" }}
         >
-          <Link _hover={{ color: "yellow", textDecoration: "none" }}>
+          <Link href="/" _hover={{ color: "yellow", textDecoration: "none" }}>
             {" "}
             <Text>Home</Text>
           </Link>
-          <Link _hover={{ color: "yellow", textDecoration: "none" }}>
-            <Text>Pages</Text>
+          <Link href="/learn" _hover={{ color: "yellow", textDecoration: "none" }}>
+            <Text>👨‍💻 Learn</Text>
           </Link>
-          <Link _hover={{ color: "yellow", textDecoration: "none" }}>
-            <Text>Use cases</Text>
+          <Link href="/earn" _hover={{ color: "yellow", textDecoration: "none" }}>
+            <Text>💰 Earn</Text>
           </Link>
+        
           <Link _hover={{ color: "yellow", textDecoration: "none" }}>
-            <Text>Pricing</Text>
+            <Text>About</Text>
           </Link>
           <Link _hover={{ color: "yellow", textDecoration: "none" }}>
             <Text>Contact</Text>
           </Link>
-          <Link _hover={{ color: "yellow", textDecoration: "none" }}>
-            <Text>Login</Text>
-          </Link>
+         
 
-          <Box color={"yellow.800"} pt={2}>
-            <Button
-              p={6}
-              color="yellow"
-              _hover={{ bgColor: "yellow", color: "black" }}
-              border={"2px solid yellow"}
-              bgColor={"transparent"}
-            >
-              Get Started
-            </Button>
-          </Box>
+        
         </Flex>
       </Box>
 
