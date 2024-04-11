@@ -31,7 +31,7 @@ export default function Nav() {
       </div>
       
     
-      <div className=" items-center justify-around hidden md:flex">
+      <div className=" items-center justify-around hidden lg:flex">
         <Link href="/learn">
           <div className="mx-[50px] text-xl">👨‍💻 Learn</div>
         </Link> 
@@ -53,11 +53,11 @@ export default function Nav() {
 
     
       </div>
-        <Box display={{ base: "flex", md: "none" }} onClick={toggleMenu}>
+        <Box display={{ base: "flex", lg: "none" }} onClick={toggleMenu}>
             {menu ? (
-              <AiOutlineClose style={{ color: "black", fontSize: 32 }} />
+              <AiOutlineClose style={{ color: "white", fontSize: 32 }} />
             ) : (
-              <AiOutlineMenu style={{ color: "black", fontSize: 32 }} />
+              <AiOutlineMenu style={{ color: "white", fontSize: 32 }} />
             )}
           </Box>
 
@@ -68,14 +68,14 @@ export default function Nav() {
         px={8}
         pb={4}
         pt={2}
-        display={{ base: menu ? "block" : "none", md: "none" }}
+        display={{ base: menu ? "block" : "none", lg: "none" }}
       >
         <Flex
           color={"white"}
           gap={4}
           justifyContent="start"
           direction={"column"}
-          display={{ base: "flex", md: "none" }}
+          display={{ base: "flex", lg: "none" }}
         >
           <Link _hover={{ color: "yellow", textDecoration: "none" }}>
             {" "}

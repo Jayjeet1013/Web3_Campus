@@ -33,7 +33,7 @@ export default function Technology() {
           <h3 className="h3 mb-2 pb-4">Learn technology which matters !</h3>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center  ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 items-center  ">
           {techData.slice(0, 8).map((tech, index) => {
             return (
               <div key={index + 1} className="p-2  py-4 ">
