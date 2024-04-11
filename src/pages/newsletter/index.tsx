@@ -57,7 +57,7 @@ const Index: React.FC = () => {
                   <td className="p-2">{article.creator}</td>
                   <td className="p-2">{article.language}</td>
                   <td className="p-2">
-                    <Link href={article.link} passHref>
+                    <Link href={article.link} target='_blank' passHref>
                       <button className="px-2 w-[100px] text-[14px] py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Read More</button>
                     </Link>
                   </td>

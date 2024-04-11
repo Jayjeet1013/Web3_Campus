@@ -88,11 +88,11 @@ export default function Nav() {
             <Text>💰 Earn</Text>
           </Link>
         
-          <Link _hover={{ color: "yellow", textDecoration: "none" }}>
+          {/* <Link _hover={{ color: "yellow", textDecoration: "none" }}>
             <Text>About</Text>
-          </Link>
+          </Link> */}
           <Link href="/newsletter" _hover={{ color: "yellow", textDecoration: "none" }}>
-            <Text>Contact</Text>
+            <Text>News</Text>
           </Link>
          
 
