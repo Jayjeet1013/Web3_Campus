@@ -3,10 +3,10 @@ import React from "react";
 
 export default function EarnHeader() {
   return (
-    <div className="bg-[#E7FFFF] py-20">
+    <div className="bg-[#E7FFFF] pt-44 pb-24 ">
       <div className="section text-center">
         <div className="max-w-[60%] mx-auto">
-          <h1 className="heading">
+          <h1 className="heading  ">
             💸
             <br />
             Earn
