@@ -1,4 +1,5 @@
 import React from "react";
+import LearnByGame from "./LearnByGame";
 
 export default function LearnHeader() {
   return (
@@ -13,6 +14,9 @@ export default function LearnHeader() {
           could influence the decision-making processes of current and
           prospective customers.
         </p>
+        </div>
+        <div>
+          <LearnByGame/>
         </div>
       </div>
     </div>
