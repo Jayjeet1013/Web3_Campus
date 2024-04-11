@@ -46,16 +46,16 @@ export default function Footer() {
             <h4 className="h4 text-white">Learn</h4>
             <div>
               <p className={linkStyle}>
-                <Link href="/resources/projects">Courses</Link>
+                <Link href="/">Platforms</Link>
               </p>
               <p className={linkStyle}>
-                <Link href="/explore/projects">Tutorial</Link>
+                <Link href="/">Youtubes</Link>
               </p>
               <p className={linkStyle}>
-                <Link href="/earn">Earn</Link>
+                <Link href="/learn">Tech</Link>
               </p>
               <p className={linkStyle}>
-                <Link href="/earn/hackathons">Hackathons</Link>
+                <Link href="/explore/projects">Courses</Link>
               </p>
             </div>
           </div>
@@ -65,10 +65,10 @@ export default function Footer() {
             <div>
           
               <p className={linkStyle}>
-                <Link href="/about-us">Jobs</Link>
+                <Link href="/earn/Jobs">Jobs</Link>
               </p>
               <p className={linkStyle}>
-                <Link href="/book-now">Hackathons</Link>
+                <Link href="/earn/hackathons">Hackathons</Link>
               </p>
             
             </div>
@@ -89,9 +89,9 @@ export default function Footer() {
               <p className={linkStyle}>
                 <Link href="/explore/glossary">Web3-Glossary</Link>
               </p>
-              <p className={linkStyle}>
+              {/* <p className={linkStyle}>
                 <Link href="/resources/consensus">Consensus Algorithms</Link>
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

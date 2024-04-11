@@ -3,7 +3,7 @@ import React from "react";
 
 export default function EarnHeader() {
   return (
-    <div className="bg-[#E7FFFF] pt-44 pb-24 ">
+    <div className="bg-[#E7FFFF] pt-28 pb-24 ">
       <div className="section text-center">
         <div className="max-w-[60%] mx-auto">
           <h1 className="heading  ">
@@ -15,12 +15,12 @@ export default function EarnHeader() {
             you can earn through Participating in Hackathons and Got a job
           </p>
 
-          <div className="flex gap-4 items-center text-center justify-center ">
+          <div className="flex gap-4 pt-6 items-center text-center justify-center ">
             <Link href={'/earn/hackathons'}>
-              <button>Hackathons</button>
+              <button className="border rounded-md p-2 bg-green-400 text-black ">Hackathons</button>
             </Link>
             <Link href={'/earn/Jobs'}>
-              <button>Jobs</button>
+              <button className="border rounded-md px-8 py-2 bg-green-400 text-black ">Jobs</button>
             </Link>
           </div>
         </div>
