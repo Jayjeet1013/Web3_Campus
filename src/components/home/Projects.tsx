@@ -5,12 +5,12 @@ import React from "react";
 export default function Projects() {
   return (
     <div className="bg-[#FEFBEE]  border-b-2 border-dark">
-      <div className="text-center p-4 bg-[#000]">
-        <h3 className="text-[20px] relative md:-mt-0 -mt-8 md:text-[36px] text-white">
+      <div className="text-center p-4 ">
+        <h3 className="text-[20px] relative md:-mt-0 -mt-8 md:text-[36px] text-black">
           Build real world project, that change peoples life
         </h3>
       </div>
-      <div className="mx-auto max-w-7xl px-4 py-6 ">
+      <div className="mx-auto max-w-7xl px-4  ">
         <Flex>
           {/* <Col sm={4} className="p-2 ">
             <img
@@ -53,7 +53,7 @@ export default function Projects() {
           </Col> */}
         </Flex>
 
-        <h1 className="pb-2 text-xl">
+        {/* <h1 className="pb-2 text-xl">
           {" "}
           <b>Decentralized Applications (DApps):</b>
         </h1>
@@ -85,7 +85,7 @@ Gaming Assets: Integrating NFTs for unique in-game items and characters.
         Lending Platforms: Creating decentralized lending and borrowing platforms.<br/>
 Decentralized Exchanges (DEX): Building decentralized cryptocurrency exchanges.<br/>
 Automated Market Makers (AMM): Implementing algorithms for automated liquidity provision.
-        </p>
+        </p> */}
       </div>
     </div>
   );
