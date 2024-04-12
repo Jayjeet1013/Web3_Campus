@@ -399,7 +399,7 @@ export function Herosection() {
 
   return (
     
-    <div className="flex r flex-row items-center justify-center py-32 h-[500px] md:h-auto bg-black  relative w-full">
+    <div className="flex r flex-row items-center justify-center pb-24 pt-32 h-[500px] md:h-auto bg-black  relative w-full">
    
 
       <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] md:px-4">
@@ -417,7 +417,7 @@ export function Herosection() {
           }}
           className="div"
         >
-          <h2 className="text-center md:mt-12 text-xl md:text-4xl font-bold text-white">
+          <h2 className="text-center md:mt-12 text-2xl md:text-4xl font-bold text-white">
             Welcome to Web3 World
           </h2>
          

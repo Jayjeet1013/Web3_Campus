@@ -4,9 +4,9 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <div className="bg-[#FEFBEE] border-b-2 border-dark">
+    <div className="bg-[#FEFBEE]  border-b-2 border-dark">
       <div className="text-center p-4 bg-[#000]">
-        <h3 className="h3 text-white">
+        <h3 className="text-[20px] relative md:-mt-0 -mt-8 md:text-[36px] text-white">
           Build real world project, that change peoples life
         </h3>
       </div>

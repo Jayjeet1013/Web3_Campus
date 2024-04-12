@@ -5,8 +5,8 @@ export default function LearnHeader() {
   return (
     <div className="bg-[#E7FFFF]">
       <div className="section text-center">
-        <div className="max-w-[60%] mx-auto">
-        <h1 className="heading">🧑‍💻<br/>Learn</h1>
+        <div className="md:max-w-[60%] mx-auto">
+        <h1 className="text-[30px] md:heading ">🧑‍💻<br/>Learn</h1>
         <p>
           Typically, the purpose of a white paper is to advocate that a certain
           position is the best way to go or that a certain solution is best for

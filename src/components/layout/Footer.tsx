@@ -6,8 +6,8 @@ export default function Footer() {
     <div className="bg-[#000]">
     <div className=" mx-auto max-w-7xl px-4  pb-8 pt-16">
       <div className="container mx-auto p flex justify-between">
-        <div className="flex md:flex-row flex-wrap justify-between ">
-          <div className="mb-5 w-1/3 sm:mb-0">
+        <div className="flex md:flex-row flex-col md:gap-24 ">
+          <div className="mb-5 md:w-1/3 sm:mb-0">
             <h3 className="h3 mb-3 text-white">Web3Campus</h3>
             <p className=" text-gray-400">
               Unleashing the Power of Web3 Education Welcome to Web3Campus, your
@@ -41,8 +41,8 @@ export default function Footer() {
               </div>
             </div>
           </div>
-
-          <div className="text-left sm:text-right">
+           <div className="flex lg:flex-row md:gap-16 md:flex-nowrap flex-wrap lg:gap-[90%] justify-between ">
+          <div className="">
             <h4 className="h4 text-white">Learn</h4>
             <div>
               <p className={linkStyle}>
@@ -60,7 +60,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="text-left sm:text-right">
+          <div className="">
             <h4 className="h4 text-white">Earn</h4>
             <div>
           
@@ -74,7 +74,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="text-left sm:text-right text-white">
+          <div className=" text-white">
             <h4 className="h4">Explore</h4>
             <div>
               <p className={linkStyle}>
@@ -93,6 +93,7 @@ export default function Footer() {
                 <Link href="/resources/consensus">Consensus Algorithms</Link>
               </p> */}
             </div>
+          </div>
           </div>
         </div>
       </div>

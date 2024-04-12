@@ -3,16 +3,16 @@ import React from "react";
 
 export default function EarnHeader() {
   return (
-    <div className="bg-[#E7FFFF] pt-28 pb-24 ">
+    <div className="bg-[#E7FFFF] pt-12 md:pt-28  md:pb-24 ">
       <div className="section text-center">
-        <div className="max-w-[60%] mx-auto">
+        <div className="md:max-w-[60%] mx-auto">
           <h1 className="heading  ">
             💸
             <br />
             Earn
           </h1>
           <p>
-            you can earn through Participating in Hackathons and Got a job
+            You can earn through Participating in Hackathons and Got a job.
           </p>
 
           <div className="flex gap-4 pt-6 items-center text-center justify-center ">
