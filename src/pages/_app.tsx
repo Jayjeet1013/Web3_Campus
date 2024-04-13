@@ -17,6 +17,8 @@ export default function App({ Component, pageProps }: AppProps) {
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/deplogo.svg" />
+
+        <script async data-id="6836916451" id="chatling-embed-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
       </Head>
   <ChakraBaseProvider>
   <Nav/>
