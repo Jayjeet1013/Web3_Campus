@@ -5,9 +5,9 @@ export default function Footer() {
   return (
     <div className="bg-[#000]">
     <div className=" mx-auto max-w-7xl px-4  pb-8 pt-16">
-      <div className="container mx-auto p flex justify-between">
-        <div className="flex md:flex-row flex-col md:gap-24 ">
-          <div className="mb-5 md:w-1/3 sm:mb-0">
+      <div className=" px-4 mx-auto p flex justify-between">
+        <div className="flex md:flex-row flex-col justify-between md:gap-20 ">
+          <div className="mb-5 lg:w-1/3 sm:mb-0">
             <h3 className="h3 mb-3 text-white">Web3Campus</h3>
             <p className=" text-gray-400">
               Unleashing the Power of Web3 Education Welcome to Web3Campus, your
@@ -41,7 +41,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-           <div className="flex lg:flex-row md:gap-16 md:flex-nowrap flex-wrap lg:gap-[90%] justify-between ">
+           <div className="flex lg:flex-row gap-6 md:gap-32 md:flex-nowrap flex-wrap  justify-between ">
           <div className="">
             <h4 className="h4 text-white">Learn</h4>
             <div>
@@ -98,7 +98,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex item-center justify-between p-3  mt-12 border-t-2 border-gray-900 flex-wrap">
-        <p className="text-gray-400 w-full sm:w-[50%]">
+        <p className="text-gray-400 w-full ">
           ✨ The blockchain is going to change everything more than the internet
           has.
         </p>

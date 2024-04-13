@@ -16,7 +16,7 @@ const ExploreHeader = () => {
             Explore other Resouces of Web3.0
           </p>
 
-          <div className="flex gap-4 pt-6 items-center text-center justify-center ">
+          <div className="flex md:flex-row flex-col gap-4 pt-6 items-center text-center justify-center ">
             <Link href={'/explore/Documentary'}>
               <button className="border rounded-md p-2 bg-green-400 text-black ">Documentaries</button>
             </Link>
