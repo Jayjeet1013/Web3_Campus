@@ -46,16 +46,16 @@ export default function Footer() {
             <h4 className="h4 text-white">Learn</h4>
             <div>
               <p className={linkStyle}>
-                <Link href="/">Platforms</Link>
+                <Link href="/learn/#platforms">Platforms</Link>
               </p>
               <p className={linkStyle}>
-                <Link href="/">Youtubes</Link>
+                <Link href="/learn/#youtube">You_Channels</Link>
               </p>
               <p className={linkStyle}>
-                <Link href="/learn">Tech</Link>
+                <Link href="/learn/#tech">Tech</Link>
               </p>
               <p className={linkStyle}>
-                <Link href="/explore/projects">Courses</Link>
+                <Link href="/learn/#games">GamesPlatform</Link>
               </p>
             </div>
           </div>

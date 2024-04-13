@@ -4,10 +4,12 @@ import Link from 'next/link'
 
 const Platforms = () => {
   return (
-    <div className='pt-7 '>
+    <div id='platforms' className='pt-7 '>
 
-
- <h1>Web3 Learning Platforms</h1>
+<div className="text-center p-4 bg-[#000]">
+        <h3 className="h3 text-white">Web3 Learning Platforms</h3>
+      </div>
+ 
  <div className='flex gap-4 flex-wrap  items-center justify-center pt-4 '>
        
         {PlatformsData.map((data)=>(

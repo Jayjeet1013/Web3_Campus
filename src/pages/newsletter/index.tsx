@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import Link from 'next/link';
+import Subscriber from '@/components/home/Subscriber';
 
 interface NewsArticle {
   article_id: string;
@@ -32,6 +33,7 @@ const Index: React.FC = () => {
   }, []);
 
   return (
+    <div>
     <div className="p-4 py-24 mx-auto max-w-7xl ">
       <h1 className="text-3xl mb-4">News</h1>
 
@@ -68,6 +70,8 @@ const Index: React.FC = () => {
       ) : (
         <p className="italic">No news articles found.</p>
       )}
+    </div>
+    <Subscriber/>
     </div>
   );
 };

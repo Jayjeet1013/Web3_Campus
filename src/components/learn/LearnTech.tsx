@@ -24,7 +24,7 @@ function Card(tech : any) {
 export default function LearnTech() {
 
   return (
-    <div className="bg-[#E8EBFF]">
+    <div id="tech" className="bg-[#E8EBFF]">
         <div className="text-center p-4 bg-[#000]">
         <h3 className="h3 text-white">Learn tech which matters</h3>
       </div>

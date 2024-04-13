@@ -4,10 +4,12 @@ import Link from 'next/link'
 
 const LearnByYoutube = () => {
   return (
-    <div className='pt-7 '>
+    <div id='youtube' className='pt-7 '>
 
-
- <h1>Learn By Watching Videos</h1>
+<div className="text-center p-4 bg-[#000]">
+        <h3 className="h3 text-white">Learn By Watching Videos</h3>
+      </div>
+ 
  <div  className='flex gap-4 flex-wrap  items-center justify-center pt-4 '>
        
         {YoutubeData.map((data)=>(

@@ -43,7 +43,7 @@ export default function Web3Glossary() {
   ];
 
   return (
-    <div className="bg-[#FEFBED]">
+    <div className="bg-[#FEFBED] py-20 ">
       <div className="text-center p-4 bg-[#000]">
         <h3 className="h3 text-white">
           A deep dive into crypto terms, DeFi def initions, and Web3 words.

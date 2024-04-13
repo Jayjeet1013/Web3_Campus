@@ -4,10 +4,12 @@ import Link from 'next/link'
 
 const LearnByGame = () => {
   return (
-    <div className='pt-7 '>
+    <div id='games' className='pt-7 '>
 
-
- <h1>Learn While You Play</h1>
+<div className="text-center p-4 bg-[#000]">
+        <h3 className="h3 text-white">Learn While You Play</h3>
+      </div>
+ 
  <div className='flex gap-4 md:flex-row flex-col items-center justify-center pt-4 '>
        
         {LearnByGameData.map((data)=>(

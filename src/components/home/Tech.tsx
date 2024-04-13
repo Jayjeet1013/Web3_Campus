@@ -47,7 +47,7 @@ export default function Technology() {
             );
           })}
         </div>
-        <Link href="/learn">
+        <Link href="/learn/#tech">
           <p className="text-center my-3 cursor-pointer animate-bounce w-max mx-auto">
             🎢Learn More 👉...
           </p>

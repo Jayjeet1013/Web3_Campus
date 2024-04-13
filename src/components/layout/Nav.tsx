@@ -40,6 +40,10 @@ export default function Nav() {
           <div className="mx-[50px] text-xl">💰 Earn</div>
         </Link>
 
+        <Link href="/explore">
+          <div className="mx-[50px] text-xl">Explore</div>
+        </Link>
+
         {/* <Link href="/">
           <div className="mx-[50px] text-xl">About</div>
         </Link> */}
