@@ -1,6 +1,8 @@
 import React from 'react'
 import { PlatformsData } from '@/data/Platforms'
 import Link from 'next/link'
+import { HoverEffect } from "../ui/card-hover-effect";
+import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
 
 const Platforms = () => {
   return (
@@ -10,18 +12,10 @@ const Platforms = () => {
         <h3 className="h3 text-white">Web3 Learning Platforms</h3>
       </div>
  
- <div className='flex gap-4 flex-wrap  items-center justify-center pt-4 '>
-       
-        {PlatformsData.map((data)=>(
-           <div key={data.id} >
-                <Link href={data.Link} target='_blank'>
-                        <div className='border bg-slate-400 p-6 w-[300px] rounded-lg '>
-            <div>{data.Name}</div>
-            <div>{data.Description}</div>
-            </div>
-            </Link>
-           </div>
-        ))}
+ <div className='flex gap-4 flex-wrap mx-auto max-w-7xl my-10  items-center justify-center pt-4 '>
+     
+       <HoverEffect items={PlatformsData}/>
+      
 </div>
     </div>
   )
