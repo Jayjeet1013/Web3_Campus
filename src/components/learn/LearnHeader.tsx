@@ -1,6 +1,7 @@
 import React from "react";
 import LearnByGame from "./LearnByGame";
 import Platforms from "./Platforms";
+import LearnByYoutube from "./LearnByYoutube";
 
 export default function LearnHeader() {
   return (
@@ -19,6 +20,7 @@ export default function LearnHeader() {
         <div>
           <LearnByGame/>
           <Platforms/>
+          <LearnByYoutube/>
         </div>
       </div>
     </div>

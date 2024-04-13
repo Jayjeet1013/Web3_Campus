@@ -41,10 +41,10 @@ const Index: React.FC = () => {
             <thead>
               <tr className="bg-gray-200">
                 <th className="p-2">Title</th>
-                <th className="p-2">Date</th>
+                <th className="p-2">Date & Time</th>
                 <th className="p-2">Country</th>
                 <th className="p-2">Publisher</th>
-                <th className="p-2">Language</th>
+               
                 <th className="p-2">Actions</th>
               </tr>
             </thead>
@@ -55,7 +55,6 @@ const Index: React.FC = () => {
                   <td className="p-2">{article.pubDate}</td>
                   <td className="p-2">{article.country.join(', ')}</td>
                   <td className="p-2">{article.creator}</td>
-                  <td className="p-2">{article.language}</td>
                   <td className="p-2">
                     <Link href={article.link} target='_blank' passHref>
                       <button className="px-2 w-[100px] text-[14px] py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Read More</button>

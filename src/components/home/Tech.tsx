@@ -29,7 +29,7 @@ export default function Technology() {
   return (
     <div className="bg-[#fff]">
       <div className="flex flex-col items-center justify-center px-5 py-20 ">
-        <div className="text-center">
+        <div className="  text-center">
           <h3 className="h3 mb-2 pb-4">Learn technology which matters !</h3>
         </div>
 
