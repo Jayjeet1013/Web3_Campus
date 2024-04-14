@@ -16,11 +16,11 @@ const JobPlatform = () => {
     item.companyName.toLowerCase().includes(searchTerm.toLowerCase())
   );
   return (
-    <div className="py-24  ">
+    <div className="py-32  ">
 
 
 
-      <div className="flex gap-56 justify-center items-center mb-12 ">
+      <div className="flex gap-56 justify-center items-center  ">
         <div className="text-xl font-bold text-center ">
           All job platforms are listed here:
         </div>
@@ -40,7 +40,7 @@ const JobPlatform = () => {
 
     
 
-      <div className="mt-4 flex flex-wrap gap-16 items-center justify-center">
+      <div className=" flex mx-auto max-w-7xl flex-wrap gap-10 items-center justify-center">
         {filteredData.map((item) => (
 
              <PinContainer 

@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 import { HackathonData } from "@/data/HackathonData";
 import Link from "next/link";
+import {
+  GlowingStarsBackgroundCard,
+  GlowingStarsDescription,
+  GlowingStarsTitle,
+} from "../ui/glowing-stars";
+import { TagRightIcon } from '@chakra-ui/react';
+import { PiArrowCircleDownRight } from 'react-icons/pi';
+import { BiRightArrow, BiSolidRightArrow, BiSolidRightArrowCircle } from 'react-icons/bi';
 
 
 const Hackathon = () => {
@@ -16,13 +24,13 @@ const Hackathon = () => {
     item.companyName.toLowerCase().includes(searchTerm.toLowerCase())
   );
   return (
-    <div className="py-24  ">
+    <div className="py-32  ">
       <div className="flex gap-56 justify-center items-center mb-12 ">
         <div className="text-xl font-bold text-center ">
-          All job platforms are listed here:
+          All Hackathon platforms are listed here:
         </div>
 
-        <div className="max-w-md  ">
+        {/* <div className="max-w-md  ">
           <input
             type="text"
             placeholder="Search Company Name..."
@@ -30,33 +38,27 @@ const Hackathon = () => {
             value={searchTerm}
             onChange={handleSearchChange}
           />
-        </div>
+        </div> */}
       </div>
 
-      <div className="mt-4 flex flex-wrap gap-16 items-center justify-center">
-        {filteredData.map((item) => (
-          <div
-            key={item.id}
-            className="hover:scale-110 duration-200  p-5 h-56 bg-gray-400 w-72  rounded-lg  text-center "
-          >
-            <div className=" text-white mb-1 font-semibold text-[24px]">
-              {item.companyName}
-            </div>
-
-            <div className="text-[16px] text-black font-medium mb-6 ">
-              {item.description}
-            </div>
-            <div className="hover:scale-110 duration-200">
-              <Link
-                href={item.link}
-                target="_blank"
-                className=" p-3  font-semibold text-[16px] text-white bg-green-500 rounded-lg "
-              >
-                Explore the Platform
-              </Link>
-            </div>
+      <div className="mt-4 flex flex-wrap mx-auto max-w-7xl gap-6 md:gap-12 items-center justify-center">
+      {filteredData.map((data)=>(
+ <div key={data.id}  className="flex   items-center justify-center antialiased">
+   <Link href={data.link} target='_blank'>
+      <GlowingStarsBackgroundCard className="w-[300px]">
+        <GlowingStarsTitle>{data.companyName}</GlowingStarsTitle>
+        <div className="flex justify-between items-end">
+          <GlowingStarsDescription>
+          {data.description}
+          </GlowingStarsDescription>
+          <div className=" rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center">
+           <BiSolidRightArrowCircle size={28} color='white'/>
           </div>
-        ))}
+        </div>
+      </GlowingStarsBackgroundCard>
+      </Link>
+    </div>
+     ))}
       </div>
     </div>
   );
