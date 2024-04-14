@@ -18,9 +18,9 @@ const LearnByGame = () => {
         <h3 className="h3 text-white">Learn While You Play</h3>
       </div>
  
- <div className='flex gap-4 md:flex-row  flex-col items-center justify-center pt-4 '>
+ <div className='flex gap-4 md:flex-row   flex-col items-center justify-center pt-4 '>
  {LearnByGameData.map((data)=>(
- <div key={data.id}  className="flex py-20 items-center justify-center antialiased">
+ <div key={data.id}  className="flex py-3 md:py-20 items-center justify-center antialiased">
    <Link href={data.link} target='_blank'>
       <GlowingStarsBackgroundCard >
         <GlowingStarsTitle>{data.name}</GlowingStarsTitle>

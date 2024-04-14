@@ -20,7 +20,7 @@ const JobPlatform = () => {
 
 
 
-      <div className="flex gap-56 justify-center items-center  ">
+      <div className="flex md:flex-row flex-col gap-4 md:pb-0 pb-10 md:gap-56 justify-center items-center  ">
         <div className="text-xl font-bold text-center ">
           All job platforms are listed here:
         </div>
@@ -40,7 +40,7 @@ const JobPlatform = () => {
 
     
 
-      <div className=" flex mx-auto max-w-7xl flex-wrap gap-10 items-center justify-center">
+      <div className=" flex mx-auto max-w-7xl flex-wrap md:gap-10 items-center justify-center">
         {filteredData.map((item) => (
 
              <PinContainer 
