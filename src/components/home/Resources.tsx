@@ -44,17 +44,15 @@ const Resources = () => {
               {item.topic}
             </div>
 
-            <div className="text-[16px] text-black font-medium mb-6 ">
+           
+            <div className="mt-1 hover:scale-110 duration-200">
+              <p
             
-            </div>
-            <div className="hover:scale-110 duration-200">
-              <Link
-                href={item.link}
                 
                 className=" p-3  font-semibold text-[16px] text-white bg-green-500 rounded-lg "
               >
                 Explore the Platform
-              </Link>
+              </p>
               
             </div>
             </GlowingStarsBackgroundCard>
