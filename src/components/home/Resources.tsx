@@ -34,7 +34,7 @@ const Resources = () => {
               key={item.id}
              title={item.topic}
              href={item.link}
-           >          <Link href={item.link} target="_blank">
+           >          <Link href={item.link} >
           <div
           
             className="hover:scale-110 duration-200  h-56  w-72  rounded-lg  text-center "
@@ -50,7 +50,7 @@ const Resources = () => {
             <div className="hover:scale-110 duration-200">
               <Link
                 href={item.link}
-                target="_blank"
+                
                 className=" p-3  font-semibold text-[16px] text-white bg-green-500 rounded-lg "
               >
                 Explore the Platform
