@@ -2,6 +2,7 @@ import React from 'react'
 import { PinContainer } from "../ui/3d-pin";
 import Link from 'next/link';
 import { BiRightArrow } from 'react-icons/bi';
+import { GlowingStarsBackgroundCard } from '../ui/glowing-stars';
 
 const Resources = () => {
 
@@ -24,34 +25,44 @@ const Resources = () => {
         ]
 
   return (
-    <div className='mx-auto py-12 max-w-6xl px-4 '>
-        <h1 className='text-center text-[32px] pb-10 '>Start to Learn, Earn and Explore Web3</h1>
-        <div className='flex items-center md:flex-row px-4 flex-col justify-between '>
-        {data.map((item)=>(
-                <div key={item.id} className='w-full md:w-[200px] lg:w-[300px] '>
+        <div className='pt-12 px-4'>
+                <h1 className='text-center text-[26px] md:text-[32px] pb-2 '>Start to Learn, Earn and Explore Web3</h1>
+        <div className=" flex mx-auto max-w-7xl flex-wrap md:gap-10 items-center justify-center">
+        {data.map((item) => (
 
-         <PinContainer
-        title={item.topic}
-        href={item.link}
-      > <Link href={item.link}>
-        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[16rem] md:w-[220px] lg:w-[20rem]  h-[14rem]  lg:h-[20rem] ">
-          <h3 className="max-w-xs flex gap-3 items-center !pb-2 !m-0 font-bold text-[20px]  text-slate-100">
-           {item.topic} <BiRightArrow/>
-          </h3>
-          <div className="text-base !m-0 !p-0 font-normal">
-            <span className="text-slate-500 ">
+             <PinContainer 
+              key={item.id}
+             title={item.topic}
+             href={item.link}
+           >          <Link href={item.link} target="_blank">
+          <div
+          
+            className="hover:scale-110 duration-200  h-56  w-72  rounded-lg  text-center "
+          >
+                <GlowingStarsBackgroundCard className="">
+            <div className=" text-white -mt-24 font-semibold text-[24px]">
+              {item.topic}
+            </div>
+
+            <div className="text-[16px] text-black font-medium mb-6 ">
+            
+            </div>
+            <div className="hover:scale-110 duration-200">
+              <Link
+                href={item.link}
+                target="_blank"
+                className=" p-3  font-semibold text-[16px] text-white bg-green-500 rounded-lg "
+              >
+                Explore the Platform
+              </Link>
               
-            </span>
-          </div>
-          <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
-        </div>  </Link>
-      </PinContainer>
-    
-      </div> 
+            </div>
+            </GlowingStarsBackgroundCard>
+          </div> </Link>
+          </PinContainer>
+         
         ))}
-        
-       </div>
-    </div>
+      </div></div>
   )
 }
 
