@@ -6,7 +6,7 @@ export default function Footer() {
     <div className="bg-[#000]">
     <div className=" mx-auto max-w-7xl px-4  pb-8 pt-16">
       <div className=" px-4 mx-auto p flex justify-between">
-        <div className="flex md:flex-row flex-col justify-between md:gap-20 ">
+        <div className="flex lg:flex-row flex-col justify-between md:gap-20 ">
           <div className="mb-5 lg:w-1/3 sm:mb-0">
             <h3 className="h3 mb-3 text-white">Web3Campus</h3>
             <p className=" text-gray-400">

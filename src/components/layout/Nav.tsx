@@ -91,10 +91,11 @@ export default function Nav() {
           <Link href="/earn" _hover={{ color: "yellow", textDecoration: "none" }}>
             <Text>💰 Earn</Text>
           </Link>
+          
         
-          {/* <Link _hover={{ color: "yellow", textDecoration: "none" }}>
-            <Text>About</Text>
-          </Link> */}
+          <Link href="/explore" _hover={{ color: "yellow", textDecoration: "none" }}>
+            <Text>Explore</Text>
+          </Link>
           <Link href="/newsletter" _hover={{ color: "yellow", textDecoration: "none" }}>
             <Text>News</Text>
           </Link>
