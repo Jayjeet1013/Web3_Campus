@@ -26,15 +26,15 @@ const Resources = () => {
   return (
     <div className='mx-auto py-12 max-w-6xl px-4 '>
         <h1 className='text-center text-[32px] pb-10 '>Start to Learn, Earn and Explore Web3</h1>
-        <div className='flex items-center justify-between '>
+        <div className='flex items-center md:flex-row px-4 flex-col justify-between '>
         {data.map((item)=>(
-                <div key={item.id} className='w-[300px] '>
+                <div key={item.id} className='w-full md:w-[200px] lg:w-[300px] '>
 
          <PinContainer
         title={item.topic}
         href={item.link}
       > <Link href={item.link}>
-        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[16rem] md:w-[220px] lg:w-[20rem]  h-[14rem]  lg:h-[20rem] ">
           <h3 className="max-w-xs flex gap-3 items-center !pb-2 !m-0 font-bold text-[20px]  text-slate-100">
            {item.topic} <BiRightArrow/>
           </h3>
