@@ -1,78 +1,78 @@
 export const ProjectData = [
 
-        {
-          title: "Build a Web3 App with Solidity + Ethereum Smart Contracts",
-          banner_url: "/projects/smart-contracts-etherium.webp",
-          description:
-            "A 2-week project where you'll learn some Solidity, write + deploy a smart contract to the blockchain, and build a Web3 client app to interact with your contract. Perfect for hackers curious about crypto.",
-          tech_stack: ["Smart Contracts", "Solidity", "Ethereum"],
-          link: "https://buildspace.so/p/build-solidity-web3-app",
-        },
-        {
-          title: "Mint your own NFT collection and ship a Web3 app to show them off",
-          banner_url: "/projects/mint-your-own-nft.webp",
-          description:
-            "If you're a developer curious about NFTs, this is perfect. Programmatically generate your own NFT collection, write + deploy a smart contract in Solidity, and build your own React dApp to let friends connect their wallets and interact w/ your NFTs",
-          tech_stack: ["NFT", "Web 3.0"],
-          link: "https://buildspace.so/p/mint-nft-collection",
-        },
-        {
-          title: "Build a Web3 app on Solana with React and Rust",
-          banner_url: "/projects/solana-web3-app.webp",
-          description:
-            "This is a very nice and cool async, weeklong project for curious devs that want to hack around with Solana. You'll pick up some Rust, write + deploy a Solana program, and connect it all back to a React web3 app that anyone with a Solana wallet will be able to interact with!",
-          tech_stack: ["Solana", "React", "Rust"],
-          link: "https://buildspace.so/p/build-solana-web3-app",
-        },
-        {
-          title: "Build your own DAO with just Javascript",
-          banner_url: "/projects/build-dao-with-javascript.webp",
-          description:
-            "DAOs are taking over. Build one yourself for fun. Maybe it's a meme DAO for your friends. Maybe it's a DAO that aims to fix climate change. Up to you. We'll be going over things like minting a membership NFT, creating/airdropping a token, public treasuries, and governance using a token!",
-          tech_stack: ["DAO", "Javascript"],
-          link: "https://buildspace.so/p/build-dao-with-javascript",
-        },
-        {
-          title: "Create your own mini turn-based NFT browser game",
-          banner_url: "/projects/mini-turn-based-NFT.webp",
-          description:
-            "This is an async, weekend project for curious devs that want to learn more about crypto + gaming by hacking together their own web3 game. You'll mint your own NFTs, make them playable characters in your game, and let users earn your own crypto as they win games",
-          tech_stack: ["NFT"],
-          link: "https://buildspace.so/p/create-turn-based-nft-game",
-        },
-        {
-          title:
-            "Ship your own custom NFT collection on Solana w/ Metaplex in a weekend",
-          banner_url: "/projects/custom-nft-on-solana.webp",
-          description:
-            "This is a chill, weekend project for any curious dev that wants to hack together some NFTs on Solana alongside some internet friends. You’ll generate your own custom NFTs and then build a storefront for someone to connect their wallet and mint your epic NFTs. All you need to know is React",
-          tech_stack: ["Solana", "NFT"],
-          link: "https://buildspace.so/p/ship-solana-nft-collection",
-        },
-        {
-          title: "Build your own domain service on a Ploygon L2 in a weekend",
-          banner_url: "/projects/domain-service-on-polygon.webp",
-          description:
-            "All the cool kids on Twitter have .eth/.sol domains. Here's how you can become cooler than them - by making your own domains! Maybe you want to make .music so people can share their fav tracks. Anything you want. We'll be going over things like writing a smart contract in Solidity, deploying to a layer 2 blockchain on Polygon, and building a React app to let your friends connect their wallets and create their domains.",
-          tech_stack: ["Polygon"],
-          link: "https://buildspace.so/p/build-polygon-ens",
-        },
-        {
-          title: "Build your own store with Solana Pay",
-          banner_url: "/projects/solana-pay.webp",
-          description:
-            "Cryptocurrencies. You've seen them make your money disappear. How about using them to make money appear? This is a chill weekend project where you'll build your own store using Solana Pay. No Rust knowledge required. Learn how to take payments directly on the blockchain via wallets by hacking around on your own store app. No payment processors here.",
-          tech_stack: ["Solana"],
-          link: "https://buildspace.so/p/build-solana-pay-store",
-        },
-        {
-          title: "Build your own NFT collection on Flow",
-          banner_url: "/projects/build-nft-collection.webp",
-          description:
-            "Learn Cadence and build an NFT collection on Flow! This is a short and async weekend project for curious devs that want to get started on Flow. You’ll learn how to write and deploy your first Flow smart contract using Cadence, build a web3 React app and connect them all together to let people connect their wallet and mint NFTs.",
-          tech_stack: ["NFT"],
-          link: "https://buildspace.so/p/nfts-on-flow",
-        },
+        // {
+        //   title: "Build a Web3 App with Solidity + Ethereum Smart Contracts",
+        //   banner_url: "/projects/smart-contracts-etherium.webp",
+        //   description:
+        //     "A 2-week project where you'll learn some Solidity, write + deploy a smart contract to the blockchain, and build a Web3 client app to interact with your contract. Perfect for hackers curious about crypto.",
+        //   tech_stack: ["Smart Contracts", "Solidity", "Ethereum"],
+        //   link: "https://buildspace.so/p/build-solidity-web3-app",
+        // },
+        // {
+        //   title: "Mint your own NFT collection and ship a Web3 app to show them off",
+        //   banner_url: "/projects/mint-your-own-nft.webp",
+        //   description:
+        //     "If you're a developer curious about NFTs, this is perfect. Programmatically generate your own NFT collection, write + deploy a smart contract in Solidity, and build your own React dApp to let friends connect their wallets and interact w/ your NFTs",
+        //   tech_stack: ["NFT", "Web 3.0"],
+        //   link: "https://buildspace.so/p/mint-nft-collection",
+        // },
+        // {
+        //   title: "Build a Web3 app on Solana with React and Rust",
+        //   banner_url: "/projects/solana-web3-app.webp",
+        //   description:
+        //     "This is a very nice and cool async, weeklong project for curious devs that want to hack around with Solana. You'll pick up some Rust, write + deploy a Solana program, and connect it all back to a React web3 app that anyone with a Solana wallet will be able to interact with!",
+        //   tech_stack: ["Solana", "React", "Rust"],
+        //   link: "https://buildspace.so/p/build-solana-web3-app",
+        // },
+        // {
+        //   title: "Build your own DAO with just Javascript",
+        //   banner_url: "/projects/build-dao-with-javascript.webp",
+        //   description:
+        //     "DAOs are taking over. Build one yourself for fun. Maybe it's a meme DAO for your friends. Maybe it's a DAO that aims to fix climate change. Up to you. We'll be going over things like minting a membership NFT, creating/airdropping a token, public treasuries, and governance using a token!",
+        //   tech_stack: ["DAO", "Javascript"],
+        //   link: "https://buildspace.so/p/build-dao-with-javascript",
+        // },
+        // {
+        //   title: "Create your own mini turn-based NFT browser game",
+        //   banner_url: "/projects/mini-turn-based-NFT.webp",
+        //   description:
+        //     "This is an async, weekend project for curious devs that want to learn more about crypto + gaming by hacking together their own web3 game. You'll mint your own NFTs, make them playable characters in your game, and let users earn your own crypto as they win games",
+        //   tech_stack: ["NFT"],
+        //   link: "https://buildspace.so/p/create-turn-based-nft-game",
+        // },
+        // {
+        //   title:
+        //     "Ship your own custom NFT collection on Solana w/ Metaplex in a weekend",
+        //   banner_url: "/projects/custom-nft-on-solana.webp",
+        //   description:
+        //     "This is a chill, weekend project for any curious dev that wants to hack together some NFTs on Solana alongside some internet friends. You’ll generate your own custom NFTs and then build a storefront for someone to connect their wallet and mint your epic NFTs. All you need to know is React",
+        //   tech_stack: ["Solana", "NFT"],
+        //   link: "https://buildspace.so/p/ship-solana-nft-collection",
+        // },
+        // {
+        //   title: "Build your own domain service on a Ploygon L2 in a weekend",
+        //   banner_url: "/projects/domain-service-on-polygon.webp",
+        //   description:
+        //     "All the cool kids on Twitter have .eth/.sol domains. Here's how you can become cooler than them - by making your own domains! Maybe you want to make .music so people can share their fav tracks. Anything you want. We'll be going over things like writing a smart contract in Solidity, deploying to a layer 2 blockchain on Polygon, and building a React app to let your friends connect their wallets and create their domains.",
+        //   tech_stack: ["Polygon"],
+        //   link: "https://buildspace.so/p/build-polygon-ens",
+        // },
+        // {
+        //   title: "Build your own store with Solana Pay",
+        //   banner_url: "/projects/solana-pay.webp",
+        //   description:
+        //     "Cryptocurrencies. You've seen them make your money disappear. How about using them to make money appear? This is a chill weekend project where you'll build your own store using Solana Pay. No Rust knowledge required. Learn how to take payments directly on the blockchain via wallets by hacking around on your own store app. No payment processors here.",
+        //   tech_stack: ["Solana"],
+        //   link: "https://buildspace.so/p/build-solana-pay-store",
+        // },
+        // {
+        //   title: "Build your own NFT collection on Flow",
+        //   banner_url: "/projects/build-nft-collection.webp",
+        //   description:
+        //     "Learn Cadence and build an NFT collection on Flow! This is a short and async weekend project for curious devs that want to get started on Flow. You’ll learn how to write and deploy your first Flow smart contract using Cadence, build a web3 React app and connect them all together to let people connect their wallet and mint NFTs.",
+        //   tech_stack: ["NFT"],
+        //   link: "https://buildspace.so/p/nfts-on-flow",
+        // },
         {
           title: "Build your own web3 Twitter dApp with Solidity",
           banner_url: "/projects/build-web3-twitter.webp",

@@ -25,7 +25,7 @@ const Resources = () => {
 
   return (
     <div className='mx-auto py-12 max-w-6xl px-4 '>
-        <h1 className='text-center text-[32px] pb-10 '>Start to Learn, Earn and Explore</h1>
+        <h1 className='text-center text-[32px] pb-10 '>Start to Learn, Earn and Explore Web3</h1>
         <div className='flex items-center justify-between '>
         {data.map((item)=>(
                 <div key={item.id} className='w-[300px] '>

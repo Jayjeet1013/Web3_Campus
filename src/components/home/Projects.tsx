@@ -7,7 +7,7 @@ export default function Projects() {
     <div className="bg-black  border-b-2 border-dark">
       <div className="text-center p-4 ">
         <h3 className="text-[20px] relative md:-mt-0 -mt-8 md:text-[36px] text-white bg-black">
-          Build real world project, that change peoples life
+          &quot;Build real world project, that change peoples life&quot;
         </h3>
       </div>
       <div className="mx-auto max-w-7xl px-4  ">
