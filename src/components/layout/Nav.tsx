@@ -55,6 +55,11 @@ export default function Nav() {
         </Link>
 
 
+        <Link href="/contact">
+          <div className="mx-[50px] text-xl">Contact</div>
+        </Link>
+
+
     
       </div>
         <Box display={{ base: "flex", lg: "none" }} onClick={toggleMenu}>
@@ -98,6 +103,9 @@ export default function Nav() {
           </Link>
           <Link href="/newsletter" _hover={{ color: "yellow", textDecoration: "none" }}>
             <Text>News</Text>
+          </Link>
+          <Link href="/contact" _hover={{ color: "yellow", textDecoration: "none" }}>
+            <Text>Contact</Text>
           </Link>
          
 

@@ -58,7 +58,7 @@ export default function ContactForm(): JSX.Element {
       
 
   return (
-    <div className="max-w-2xl mx-auto py-20">
+    <div className="max-w-2xl mx-auto px-4 py-10  md:py-20">
         <h1 className="pt-20 text-[32px] ">Contact Us</h1>
       <form onSubmit={handleSubmit} className="pt-4 mt-4 flex flex-col gap-5">
         <div className="flex flex-col md:flex-row justify-between md:items-center">
@@ -102,7 +102,7 @@ export default function ContactForm(): JSX.Element {
           ></textarea>
         </div>
 
-        <button className="bg-green-700 w-1/3 mx-auto rounded-md p-3 text-white font-bold" type="submit">
+        <button className="bg-green-700 md:w-1/3 md:mx-auto rounded-md p-3 text-white font-bold" type="submit">
          {loading ? 'Submitting...':'Send'}
         </button>
       </form>

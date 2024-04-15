@@ -70,6 +70,8 @@ export default function Footer() {
               <p className={linkStyle}>
                 <Link href="/earn/hackathons">Hackathons</Link>
               </p>
+
+           
             
             </div>
           </div>
