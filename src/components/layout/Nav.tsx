@@ -31,17 +31,17 @@ export default function Nav() {
       </div>
       
     
-      <div className=" items-center justify-around hidden lg:flex">
+      <div className=" items-center gap-16 justify-around hidden lg:flex">
         <Link href="/learn">
-          <div className="mx-[50px] text-xl">👨‍💻 Learn</div>
+          <div className="text-xl">👨‍💻 Learn</div>
         </Link> 
         
         <Link href="/earn">
-          <div className="mx-[50px] text-xl">💰 Earn</div>
+          <div className=" text-xl">💰 Earn</div>
         </Link>
 
         <Link href="/explore">
-          <div className="mx-[50px] text-xl">Explore</div>
+          <div className="text-xl">Explore</div>
         </Link>
 
         {/* <Link href="/">
@@ -51,12 +51,12 @@ export default function Nav() {
        
 
         <Link href="/newsletter">
-          <div className="mx-[50px] text-xl">News</div>
+          <div className=" text-xl">News</div>
         </Link>
 
 
         <Link href="/contact">
-          <div className="mx-[50px] text-xl">Contact</div>
+          <div className=" text-xl">Contact</div>
         </Link>
 
 
