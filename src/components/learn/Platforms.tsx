@@ -12,7 +12,7 @@ const Platforms = () => {
         <h3 className="h3 text-white">Web3 Learning Platforms</h3>
       </div>
  
- <div className='flex gap-4 flex-wrap mx-auto max-w-7xl my-10  items-center justify-center pt-4 '>
+ <div className='flex gap-4 px-3 flex-wrap mx-auto max-w-7xl my-10  items-center justify-center pt-4 '>
      
        <HoverEffect items={PlatformsData}/>
       

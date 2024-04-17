@@ -39,10 +39,10 @@ const Index: React.FC = () => {
 
       {news.length > 0 ? (
         <div className="overflow-x-auto">
-          <table className="w-full border-collapse border border-gray-300">
+          <table className="w-full  border-collapse border border-gray-300">
             <thead>
               <tr className="bg-gray-200">
-                <th className="p-2">Title</th>
+                <th className="p-2 ">Title</th>
                 <th className="p-2">Date & Time</th>
                 <th className="p-2">Country</th>
                 <th className="p-2">Publisher</th>
@@ -53,7 +53,7 @@ const Index: React.FC = () => {
             <tbody>
               {news.map((article) => (
                 <tr key={article.article_id} className="border-b border-gray-300">
-                  <td className="p-2">{article.title}</td>
+                  <td className="p-2 ">{article.title}</td>
                   <td className="p-2">{article.pubDate}</td>
                   <td className="p-2">{article.country.join(', ')}</td>
                   <td className="p-2">{article.creator}</td>
@@ -68,7 +68,7 @@ const Index: React.FC = () => {
           </table>
         </div>
       ) : (
-        <p className="italic">No news articles found.</p>
+        <p className="italic">Loading...</p>
       )}
     </div>
     <Subscriber/>
