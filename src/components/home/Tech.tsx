@@ -14,7 +14,7 @@ function Card(tech: any) {
   const { title, sub_title, logo_url, link } = tech;
 
   return (
-    <div className="border-2 md:w-[300px] hover border-dark py-8 px-3">
+    <div className="border-2 rounded-lg md:w-[300px] hover border-dark py-8 px-3">
       <Link href={link}>
         {" "}
         <img className="mb-3 max-h-[60px]" src={logo_url} alt="logo" />
@@ -36,7 +36,7 @@ export default function Technology() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 items-center  ">
           {techData.slice(0, 8).map((tech, index) => {
             return (
-              <div key={index + 1} className="p-2  py-4 ">
+              <div key={index + 1} className="p-2   py-4 ">
                 <Card
                   title={tech.title}
                   logo_url={tech.logo_url}

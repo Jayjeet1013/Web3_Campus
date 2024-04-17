@@ -1,16 +1,11 @@
 export const PlatformsData=[
         {
-                id:1,
+                id:2,
                 title:'PlatZi',
                 link:'https://platzi.com/escuela/blockchain/',
                 description:'Learn how to build dapps on Web3 and master all the skills needed to be a blockchain developer.'
         },
-        {
-                id:2,
-                title:'ChainShot',
-                link:'https://www.alchemy.com/university',
-                description:'Remote, instructor-led Ethereum developer bootcamp and additional courses.'
-        },
+       
         {
                 id:3,
                 title:'ConsenSys Academy',

@@ -7,7 +7,7 @@ function Card(tech : any) {
   const {title, sub_title, logo_url, link} = tech
 
   return (
-    <div className="border-2 hover border-dark py-5 px-3 bg-white">
+    <div className="border-2 rounded-lg hover border-dark py-5 px-3 bg-white">
       <Link href={link} target="_blank">
       <img
         className="mb-3 max-h-[50px]"
@@ -28,7 +28,7 @@ export default function LearnTech() {
         <div className="text-center p-4 bg-[#000]">
         <h3 className="h3 text-white">Learn tech which matters</h3>
       </div>
-      <div className="container mx-auto py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+      <div className="container px-3 mx-auto py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
 
      
           {techData.map((tech, index) => {
