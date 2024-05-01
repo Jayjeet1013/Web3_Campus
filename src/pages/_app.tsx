@@ -13,9 +13,10 @@ export default function App({ Component, pageProps }: AppProps) {
     ReactGA.initialize("G-42CDFZZ1TL");
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
-  return (
-    <>
-      <Head>
+  return(
+  <>
+  <Head>
+
         <title>Web3Campus </title>
         <meta
           name="DePin Bootstrap"
@@ -39,30 +40,16 @@ export default function App({ Component, pageProps }: AppProps) {
             });
           `,
           }}
-        />
+          />
 
-        {/* <script
-          async
-          data-id="6836916451"
-          id="chatling-embed-script"
-          type="text/javascript"
-          src="https://chatling.ai/js/embed.js"
-        ></script> */}
-        <script
-          src="https://app.wonderchat.io/scripts/wonderchat.js"
-          data-name="wonderchat"
-          data-address="app.wonderchat.io"
-          data-id="clvnq5hh500avvzgpki04ke93"
-          data-widget-size="normal"
-          data-widget-button-size="normal"
-          defer
-        ></script>
+        <script async data-id="6836916451" id="chatling-embed-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+        
       </Head>
-      <ChakraBaseProvider>
-        <Nav />
-        <Component {...pageProps} />
-        <Footer />
-      </ChakraBaseProvider>
-    </>
-  );
+  <ChakraBaseProvider>
+  <Nav/>
+  <Component {...pageProps} />
+  <Footer/>
+  </ChakraBaseProvider>
+</>
+)
 }
