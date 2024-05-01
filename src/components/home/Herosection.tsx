@@ -5,6 +5,8 @@ import dynamic from "next/dynamic";
 import { Meteors } from "../ui/meteors";
 import { BackgroundBeams } from "../ui/background-beams";
 import { BackgroundGradientAnimation } from "../ui/bg-gradient-anima"; 
+import { SparklesCore } from "../ui/sparkles";
+
 
 
 const World = dynamic(() => import("../ui/globe").then((m) => m.World), {
@@ -400,6 +402,7 @@ export function Herosection() {
 
   return (
     <div className="flex r flex-row items-center justify-center pb-24 pt-32 h-[500px] md:h-auto bg-black  relative w-full">
+   
       <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] md:px-4">
         <motion.div
           initial={{
