@@ -11,7 +11,7 @@ const ExploreHeader = () => {
             <h1 className="heading  ">Explore</h1>
             <p>Explore other Resouces of Web3.0</p>
 
-            <div className="w-[40rem] h-40 relative">
+            <div className="w-full md:w-[40rem] h-20 md:h-40 flex items-center justify-center  relative">
               {/* Gradients */}
               <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
               <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />

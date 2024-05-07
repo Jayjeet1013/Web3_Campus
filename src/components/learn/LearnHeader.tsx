@@ -15,7 +15,7 @@ export default function LearnHeader() {
             Learn
           </h1>
           <p className="text-[24px] ">Learn by using these techs</p>
-          <div className="w-[40rem] h-40 flex items-center justify-center relative">
+          <div className="w-full md:w-[40rem] h-20 md:h-40  flex items-center justify-center relative">
             {/* Gradients */}
             <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
             <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />

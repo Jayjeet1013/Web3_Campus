@@ -6,7 +6,7 @@ import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
 
 const Platforms = () => {
   return (
-    <div id='platforms' className='pt-7 '>
+    <div id='platforms' className='border-t '>
 
 <div className="text-center p-4 bg-[#000]">
         <h3 className="h3 text-white">Web3 Learning Platforms</h3>

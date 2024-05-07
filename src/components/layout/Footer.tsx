@@ -13,10 +13,10 @@ export default function Footer() {
         minSize={0.6}
         maxSize={1.4}
         particleDensity={100}
-        className="w-full h-96 absolute"
+        className="w-full md:h-[420px] h-[600px] lg:h-96 absolute "
         particleColor="#FFFFFF"
       />
-      <div className=" mx-auto max-w-7xl px-4  pb-8 pt-16">
+      <div className=" mx-auto max-w-7xl px-4 relative pb-8 pt-16">
         <div className=" px-4 mx-auto p flex justify-between">
           <div className="flex lg:flex-row flex-col justify-between md:gap-20 ">
             <div className="mb-5 lg:w-1/3 sm:mb-0">

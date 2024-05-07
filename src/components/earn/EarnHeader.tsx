@@ -7,14 +7,10 @@ export default function EarnHeader() {
     <div className="bg-black text-white pt-12 md:pt-28  md:pb-24 ">
       <div className="section text-center">
         <div className="md:max-w-[60%] flex flex-col items-center mx-auto">
-          <h1 className="heading  ">
-           
-      
-            Earn
-          </h1>
+          <h1 className="heading  ">Earn</h1>
           <p>You can earn through Participating in Hackathons and Got a job.</p>
-          
-          <div className="w-[40rem] h-40 flex items-center justify-center relative">
+
+          <div className="w-full md:w-[40rem] h-20 md:h-40 flex items-center justify-center relative">
             {/* Gradients */}
             <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
             <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
