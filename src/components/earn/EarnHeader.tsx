@@ -1,12 +1,20 @@
 import Link from "next/link";
 import React from "react";
 import { SparklesCore } from "../ui/sparkles";
+import { motion } from "framer-motion";
 
 export default function EarnHeader() {
   return (
     <div className="bg-black text-white pt-12 md:pt-28  md:pb-24 ">
       <div className="section text-center">
-        <div className="md:max-w-[60%] flex flex-col items-center mx-auto">
+        <motion.div
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 1.1 }}
+          drag="x"
+          dragConstraints={{ left: -100, right: 100 }}
+          animate={{ x: 10, y: 80 }}
+          className="-mt-20   md:max-w-[60%] flex flex-col items-center mx-auto"
+        >
           <h1 className="heading  ">Earn</h1>
           <p>You can earn through Participating in Hackathons and Got a job.</p>
 
@@ -43,7 +51,7 @@ export default function EarnHeader() {
               </button>
             </Link>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
