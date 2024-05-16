@@ -16,9 +16,7 @@ export default function ContactForm(): JSX.Element {
         e.preventDefault();
         
       
-        console.log("Full name: ", fullname);
-        console.log("Email: ", email);
-        console.log("Message: ", message);
+       
         setLoading(true);
       
         try {
