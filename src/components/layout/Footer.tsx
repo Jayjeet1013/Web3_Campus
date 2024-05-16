@@ -114,7 +114,7 @@ export default function Footer() {
             internet has.
           </p>
           <Link target="_blank" className="flex gap-1 items-center " href={"https://www.linkedin.com/in/jayjeet-kumar-71a7751ba/"}>
-            <p>@ Made By Jayjeet Kumar</p>
+            <p>@ Made By Jayjeet </p>
             <BsLinkedin/>
           </Link>
         </div>
