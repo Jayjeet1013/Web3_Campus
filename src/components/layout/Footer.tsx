@@ -109,13 +109,14 @@ export default function Footer() {
           </div>
         </div>
         <div className="text-gray-400 flex md:flex-row flex-col gap-4 item-center justify-between p-3  mt-12 border-t-2 border-gray-900 ">
-          <p className=" ">
-            ✨ The blockchain is going to change everything more than the
-            internet has.
-          </p>
-          <Link target="_blank" className="flex gap-1 items-center " href={"https://www.linkedin.com/in/jayjeet-kumar-71a7751ba/"}>
-            <p>@ Made By Jayjeet </p>
-            <BsLinkedin/>
+         
+          <Link
+            target="_blank"
+            className="mr-20 flex gap-1 items-center "
+            href={"https://www.linkedin.com/in/jayjeet-kumar-71a7751ba/"}
+          >
+            <p>@ Made By ✨ Jayjeet </p>
+            <BsLinkedin />
           </Link>
         </div>
       </div>
