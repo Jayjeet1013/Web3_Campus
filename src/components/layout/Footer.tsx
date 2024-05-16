@@ -115,8 +115,8 @@ export default function Footer() {
             className="mr-20 flex gap-1 items-center "
             href={"https://www.linkedin.com/in/jayjeet-kumar-71a7751ba/"}
           >
-            <p>@ Made By ✨ Jayjeet </p>
-            <BsLinkedin />
+            <p className="text-[18px] " >@ Made By ✨ <span className="font-bold opacity-85 text-white "> Jayjeet</span> </p>
+            <BsLinkedin color="white " className="opacity-85 " />
           </Link>
         </div>
       </div>
