@@ -109,16 +109,16 @@ export default function Footer() {
           </div>
         </div>
         <div className="text-gray-400 flex md:flex-row flex-col gap-4 item-center justify-between p-3  mt-12 border-t-2 border-gray-900 ">
-         
           <Link
             target="_blank"
             className="mr-20 flex gap-1 items-center "
-            href={"https://www.linkedin.com/in/jayjeet-kumar-71a7751ba/"}
+            href={"/"}
           >
-            <p className="text-[18px] " >@ Made By ✨ <span className="font-bold opacity-85 text-white "> Jayjeet</span> </p>
-            <BsLinkedin color="white " className="opacity-85 " />
+            <p className="text-[18px] ">
+              . <span className="font-bold opacity-85 text-white "></span>{" "}
+            </p>
+            {/* <BsLinkedin color="white " className="opacity-85 " /> */}
           </Link>
-          
         </div>
       </div>
     </div>
