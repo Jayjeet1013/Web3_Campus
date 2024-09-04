@@ -112,12 +112,12 @@ export default function Footer() {
           <Link
             target="_blank"
             className="mr-20 flex gap-1 items-center "
-            href={"/"}
+            href={"/https://www.linkedin.com/in/jayjeet-kumar-71a7751ba/"}
           >
             <p className="text-[18px] ">
-              . <span className="font-bold opacity-85 text-white "></span>{" "}
+              . <span className="font-bold opacity-85 text-white ">Jayjeet Kumar</span>{" "}
             </p>
-            {/* <BsLinkedin color="white " className="opacity-85 " /> */}
+            <BsLinkedin color="white " className="opacity-85 " />
           </Link>
         </div>
       </div>
