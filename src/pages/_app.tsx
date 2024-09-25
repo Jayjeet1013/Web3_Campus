@@ -6,6 +6,7 @@ import type { AppProps } from "next/app";
 import Head from "next/head";
 import { useEffect } from "react";
 import ReactGA from 'react-ga';
+import { Analytics } from "@vercel/analytics/react";
 
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -13,14 +14,13 @@ export default function App({ Component, pageProps }: AppProps) {
     ReactGA.initialize("G-42CDFZZ1TL");
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
-  return(
-  <>
-  <Head>
-
+  return (
+    <>
+      <Head>
         <title>Web3Campus </title>
         <meta
-          name="DePin Bootstrap"
-          content="Dep Network is the first platform to accelerate DePINs through a Tokenized platform and bootstrap offerings."
+          name="description"
+          content="Web3Campus - Learn Web3, Blockchain, Smart Contracts, and Decentralized Applications (dApps). Join our platform to explore hands-on tutorials and resources on building in the decentralized web. Empowering the next generation of Web3 developers."
         />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -40,16 +40,22 @@ export default function App({ Component, pageProps }: AppProps) {
             });
           `,
           }}
-          />
+        />
 
-        <script async data-id="6836916451" id="chatling-embed-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
-        
+        <script
+          async
+          data-id="6836916451"
+          id="chatling-embed-script"
+          type="text/javascript"
+          src="https://chatling.ai/js/embed.js"
+        ></script>
       </Head>
-  <ChakraBaseProvider>
-  <Nav/>
-  <Component {...pageProps} />
-  <Footer/>
-  </ChakraBaseProvider>
-</>
-)
+      <ChakraBaseProvider>
+        <Nav />
+        <Component {...pageProps} />
+        <Analytics />
+        <Footer />
+      </ChakraBaseProvider>
+    </>
+  );
 }
