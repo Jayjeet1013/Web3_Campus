@@ -8,7 +8,7 @@ export default function EarnHeader() {
     <div className="bg-black text-white pt-12 md:pt-28  md:pb-24 ">
       <div className="section text-center">
         <motion.div
-          whileHover={{ scale: 1.1 }}
+        
           whileTap={{ scale: 1.1 }}
           drag="x"
           dragConstraints={{ left: -100, right: 100 }}
